@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="popup.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+</head>
+<body>
+
+   <div class="search-container">
+  <input id="searchInput" type="text" placeholder="Search a song..." style="width: 70%;" />
+  <button id="searchBtn"><i class="fa fa-search"></i></button>
+</div>
+    <div class="track-info-container">
+        <h3 id="track-info"></h3>
+    </div>
+        <div class="album-art-container">
+        <img src="./icons/apple-music-note.jpg" id="trackimage">
+    </div>
+
+    
+        <div id="options">
+            <button id="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+            <button id="prev"><i class="fa-solid fa-backward"></i></button>
+            <button id="play"><i class="fa-solid fa-play"></i></button>
+            <button id="next"><i class="fa-solid fa-forward"></i></button>
+            <button id="repeat"><i class="fa-solid fa-repeat"></i></button>
+        </div>
+    
+    
+
+        <div class="skip-controls">
+            <button id="skip-backward">
+                <i class="fa-solid fa-rotate-left"></i>
+            </button>
+            <button id="pip"> <i class="fa-solid fa-display"></i></button>
+            <button id="skip-forward">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
